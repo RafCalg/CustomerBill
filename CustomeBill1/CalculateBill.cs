@@ -223,6 +223,12 @@ namespace CustomeBill1
             string input = offPeakTextBox.Text;
             validOffPeak=inputTest(input);
          }
+
+        private void CalculateBill_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Electricity Bill Calculation - Start by Choosing a Customer Type");
+            customerTypeComboBox.Focus();
+        }
     }
     
 }
