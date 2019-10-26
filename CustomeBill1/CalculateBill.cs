@@ -100,7 +100,7 @@ namespace CustomeBill1
                 //haveValidInteger = false;
                 calculateButton.Enabled = false;
                 validInput = false;
-                MessageBox.Show("Input needs to be a whole positive number");
+                MessageBox.Show("Input needs to be a valid whole positive number");
             }
             return validInput;
         }
